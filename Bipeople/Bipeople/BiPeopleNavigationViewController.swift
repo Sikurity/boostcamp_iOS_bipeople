@@ -542,14 +542,14 @@ class BiPeopleNavigationViewController: UIViewController {
             let bearing = navigationManager.calculateBearing(to: coord)
             let camera = GMSCameraPosition.camera(
                 withTarget: coord,
-                zoom: 15.0,
+                zoom: 17.0,
                 bearing: bearing,
                 viewingAngle: -1
             )
         #else
             let camera = GMSCameraPosition.camera(
                 withTarget: coord,
-                zoom: 15.0
+                zoom: 17.0
             )
         #endif
         
